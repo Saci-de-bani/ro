@@ -99,7 +99,7 @@ before_deploy:
 - echo `pwd`
 deploy:
   provider: releases
-  file_glob; true
+  file_glob: true
   api_key:
     secure: APrpjrW9XVXcymgoVp+UggbvFjxLYVqiLwUdbZxtq8mLfSKf/IvNTUbmgOkY8ohIjwjjzJ4tB8gp9TJ2Iigd4yzMHU9SBtLGTaFJJ0Eri9CXDnBe+Dit7Xl0v7rFSvWkDK87mo5JTTo+1h13r32lKBaKNa6FyBoVpIrPtVTXczcd2neAxtMCz0U27aCtgnHGipEa10BCTw6G1hsYqC0L+9obd4xri3/s4gXYVGfAov71TbCSKb6Sjvz9dzqQyKtZm3mFi32go6dX3YrfiP6Qvb/OE++sP35zZKE35JPU3FU/cW+1nc6pBo9MfkAjs+m4QGPY+ZngLOV89Fj5XkOTos7qrZHB3UMHKUyO1yb9N4JWlxjqGAtJ7X3YK6f9aJV7KoRU+NN2lua7TqqQi7nkIbjbRAvDzgCu69nROW9YjwwTzmFLul9dNeA6NrQ2fhJ/zen3GYjxRpBvgleDZN+UZaWtLu9z3ap/q7pMbjFQgoDeX/dIhYvH0FOg0ogyRyV810kHYlMqSvAtRLujLgQfvYFh9ON2/BQT8eFbmuqp6o1IhKegaRllR3KmYbWR7I7igIgpZrQ3jFa33L3vKwRT5fSr/jNGipV9+mDDEaNQD3Dg6JLLbm0f27XsiXTTuzPdQwzEVX2l9fNDzsfUtl4udnELrSfg+nErIUyjUfuO0ko=
   file: ro-$HOST.tar.gz
